@@ -3,7 +3,7 @@ window.onscroll = slideDown;
 function slideDown() {
     var intElemScrollTop = document.documentElement.scrollTop;
     console.log(intElemScrollTop);
-    if (intElemScrollTop < 200) {
+    if (intElemScrollTop < 500) {
         document.getElementById("navbar").style.top = '0';
     }
     else{
