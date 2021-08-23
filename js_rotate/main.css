@@ -3,6 +3,8 @@ body{
     padding:0;
     background-color: black;
     color:white;
+    overflow: hidden;
+    height: 20vh;
   }
   
   #rotateScreen{
@@ -14,4 +16,20 @@ body{
   
   #displayContent{
     display: none;
+    width: 100vh;
+    height: 100vw;
+    transform-origin: right top;
+    transform:rotate(-90deg) translateY(-50vh);
+    overflow-y: scroll;
+    overflow-y: hidden;
+    position: relative;
   }  
+
+  #displayContent p {
+    width: 100px;
+    height: 30vh;
+    transform: rotate(90deg) translateY(-80vh);
+    transform-origin: right top;
+  }
+
+  
